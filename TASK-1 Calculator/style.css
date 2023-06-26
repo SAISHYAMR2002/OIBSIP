@@ -1,0 +1,136 @@
+*{
+  padding: 0;
+  margin: 0;
+
+}
+
+body{
+  background-image: url('calc.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  display: grid;
+  height: 100vh;
+  place-items: center;
+}
+
+.main {
+  width: 500px;
+  height: 450px;
+  background-color: #0e6dbf;
+  border: 5px solid #afe6fb;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.main input[type='text']{
+  width: 90%;
+  height: 80px;
+  position: relative;
+  top: 8px;
+  text-align: right;
+  padding: 3px 6px;
+  font-size: 30px;
+  outline: none;
+  border: 5px solid #2e2e2e;
+  margin: auto;
+  display: flex;
+  border-radius: 5px;
+}
+
+.main input[type='button']{
+  width: 100px;
+  padding: 4px;
+  margin: 2px 0;
+  position: relative;
+  top: 15px;
+  left: 40px;
+  height: 60px;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: 700;
+  background-color: #2BCAFF;
+  border-radius: 5px;
+}
+
+.main input[type='button']:hover{
+  background-color:rgb(249, 82, 10);
+  transition-duration: 0.5s;
+}
+
+.bracket input[type='button']{
+  width: 48px;
+  padding: 4px;
+  margin: 2px 0;
+  position: relative;
+  top: 15px;
+  left: 40px;
+  height: 60px;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: 700;
+  background-color: #9abcce;
+  border-radius: 5px;
+}
+
+.bottom input[type='button']{
+  width: 100px;
+  padding: 4px;
+  margin: 2px 0;
+  position: relative;
+  top: -49px;
+  left: 40px;
+  height: 60px;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: 700;
+  background-color: #00c5e8bb;
+  border-radius: 5px;
+}
+
+.top input[type='button']{
+  width: 100px;
+  padding: 4px;
+  margin: 2px 0;
+  position: relative;
+  top: -49px;
+  left: 144px;
+  height: 60px;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: 700;
+  background-color: #afd2e5;
+  border-radius: 5px;
+}
+
+.move input[type='button']{
+  top: -48px;
+  background-color: #d5decf;
+}
+
+h1{
+  font-size: 45px;
+  font-weight: bold;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  text-transform: uppercase;
+  -webkit-text-stroke: 2px #1c0503;
+  -webkit-text-fill-color: #1619c1;
+  padding: 10px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: rgb(14, 7, 7);
+  }
+
+}
