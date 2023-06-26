@@ -1,0 +1,319 @@
+.desktop-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-black);
+  width: 1519px;
+  height: 4070px;
+  overflow: hidden;
+}
+.inside-header-child {
+  position: relative;
+  background-color: var(--color-gray-300);
+  width: 630px;
+  height: 450px;
+}
+.inside-header {
+  position: absolute;
+  top: -1;
+  left: 0;
+  width: 1519px;
+  height: 424px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-image: url(./public/peakpx-2@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.elon-musk {
+  color: var(--color-white);
+}
+.elonelon-musk {
+  position: absolute;
+  top: 111px;
+  left: 130px;
+  display: inline-block;
+  width: 348px;
+  height: 75px;
+}
+.header-rocket-icon {
+  position: absolute;
+  top: 115px;
+  left: 442px;
+  width: 54px;
+  height: 54px;
+  object-fit: cover;
+}
+.p,
+.revolutionary-entrepreneur {
+  margin: 0;
+  position: absolute;
+  top: 0;
+}
+.p {
+  color: var(--color-orange);
+}
+.visionary-shaping-the {
+  margin: 0;
+  position: absolute;
+  top: 50;
+  color: var(--color-goldenrod);
+}
+.revolutionary-entrepreneur-container {
+  position: absolute;
+  top: 200px;
+  left: 190px;
+  font-size: var(--font-size-13xl);
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 635px;
+  height: 105px;
+  color: var(--color-tomato);
+}
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gainsboro);
+  width: 1440px;
+  height: 424px;
+}
+.cover-1-icon {
+  position: absolute;
+  top: 72px;
+  left: 838px;
+  width: 546px;
+  height: 744px;
+  object-fit: cover;
+}
+.biography-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-140xl);
+  background-color: var(--color-whitesmoke);
+  width: 832px;
+  height: 948px;
+}
+.biography1,
+.elon-musk-born {
+  position: absolute;
+  display: inline-block;
+}
+.biography1 {
+  top: 91px;
+  left: 295px;
+  width: 364px;
+  height: 78px;
+}
+.elon-musk-born {
+  top: 153px;
+  left: 42px;
+  font-size: var(--font-size-7xl);
+  line-height: 225.47%;
+  font-weight: 600;
+  font-family: var(--font-encode-sans-condensed);
+  color: var(--color-black);
+  text-align: center;
+  width: 764px;
+}
+.biography {
+  position: absolute;
+  top: 497px;
+  left: 31px;
+  width: 1384px;
+  height: 948px;
+  color: var(--color-gray-200);
+}
+.cover-2-icon {
+  position: absolute;
+  top: 160px;
+  left: 0;
+  border-radius: var(--br-47xl);
+  width: 499px;
+  height: 502px;
+  object-fit: cover;
+}
+.companies-child {
+  position: absolute;
+  top: 0;
+  left: 546px;
+  border-radius: var(--br-32xl);
+  background-color: var(--color-gray-100);
+  width: 772px;
+  height: 945px;
+}
+.boring-company-icon,
+.neurallink-icon {
+  position: absolute;
+  top: 703px;
+  left: 753px;
+  width: 352px;
+  height: 211px;
+  object-fit: cover;
+}
+.neurallink-icon {
+  top: 609px;
+  left: 912px;
+  width: 286px;
+  height: 94px;
+}
+.companies1 {
+  position: absolute;
+  top: 21px;
+  left: 816px;
+  display: inline-block;
+  width: 317px;
+  height: 65px;
+}
+.solarcity-icon,
+.spacex-icon,
+.tesla-icon {
+  position: absolute;
+  top: 160px;
+  left: 586px;
+  width: 502px;
+  height: 211px;
+  object-fit: cover;
+}
+.solarcity-icon,
+.tesla-icon {
+  top: 266px;
+  left: 800px;
+  width: 379px;
+  height: 283px;
+}
+.solarcity-icon {
+  top: 511px;
+  left: 599px;
+  width: 307px;
+  height: 76px;
+}
+.companies,
+.future-bg-icon {
+  position: absolute;
+  top: 1527px;
+  left: 73px;
+  width: 1318px;
+  height: 945px;
+}
+.future-bg-icon {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-42xl);
+  height: 1049px;
+  object-fit: cover;
+}
+.elon-musk-has,
+.future-plans1 {
+  position: absolute;
+  top: 38px;
+  left: 511px;
+  display: inline-block;
+  width: 483px;
+  height: 125px;
+}
+.elon-musk-has {
+  top: 125px;
+  left: 55px;
+  font-size: var(--font-size-15xl);
+  line-height: 145%;
+  font-weight: 600;
+  font-family: var(--font-encode-sans-condensed);
+  width: 696px;
+  height: 976px;
+}
+.future-plans {
+  position: absolute;
+  top: 2588px;
+  left: 90px;
+  width: 1318px;
+  height: 1101px;
+  color: var(--color-white);
+}
+.visionary {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 145%;
+  font-weight: 600;
+}
+.ambitious,
+.driven,
+.influential,
+.innovative,
+.trailblazer {
+  position: absolute;
+  top: 73px;
+  left: 241px;
+  line-height: 145%;
+  font-weight: 600;
+}
+.ambitious,
+.driven,
+.influential,
+.trailblazer {
+  top: 194px;
+  left: 810px;
+}
+.ambitious,
+.influential,
+.trailblazer {
+  top: 110px;
+  left: 968px;
+}
+.ambitious,
+.trailblazer {
+  top: 183px;
+  left: 492px;
+}
+.trailblazer {
+  top: 20px;
+  left: 1172px;
+}
+.footer-icon-1,
+.footer-words {
+  position: absolute;
+  top: 11px;
+  left: 36px;
+  width: 1380px;
+  height: 267px;
+}
+.footer-icon-1 {
+  top: 18px;
+  left: 781px;
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+}
+.footer,
+.footer-arrows-icon {
+  position: absolute;
+  top: 46.5px;
+  left: 254.89px;
+  width: 918.26px;
+  height: 175.36px;
+}
+.footer {
+  top: 3758px;
+  left: 0;
+  background-color: var(--color-darkgray);
+  width: 1519px;
+  height: 312px;
+  text-align: center;
+  font-size: var(--font-size-31xl);
+  font-family: var(--font-encode-sans-condensed);
+}
+.desktop-1-parent {
+  position: relative;
+  width: 100%;
+  height: 4070px;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  font-family: var(--font-impact);
+}
+
